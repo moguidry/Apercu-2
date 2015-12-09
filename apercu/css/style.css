@@ -1,0 +1,27 @@
+
+span.overlay {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+   -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.overlay span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.row div:hover span.text-content {
+  opacity: 1;
+}
